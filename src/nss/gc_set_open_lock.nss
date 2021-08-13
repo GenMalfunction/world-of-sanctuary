@@ -1,0 +1,4 @@
+void main()
+{
+ SetLocalInt(GetPCSpeaker(), "CRAFT_SKILL", SKILL_OPEN_LOCK);
+}
