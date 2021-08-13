@@ -19,6 +19,22 @@ Some loved the idea of it so much, they set out to create Neverwinter Nights mod
 
 Queue Henk Blanken and his "Diablo Lord of Destruction - World of Sanctuary" Neverwinter Nights module. Henk created this module, ran it on a dedicated server full time for approximately seven years, continually tuning the content, and even adding to the story. The original Diablo 2 had four "Acts," where various quests and ultimate evils were confronted, and a fifth Act available via DLC. Henk, with the inspriation & input of his DMs and regular players, expanded the "World of Sanctuary" to TEN Acts, before life moved on, and he made the decision to cease operation of his "Persistent World" NWN module and move on to greener pastures. One of his then current active players, Stefano took over curatorship at that point, and has had the persisten world online over various periods in the intervening time. Sadly, Stefano now has also had to move on from curating and any possible "enhancement" of this module.
 
+Full faith & credit to all who have been involved in the development, playtesting, and pure fun had with the module over the years, including but not limited to:
+- Henk Blanken
+- Henk's DM team:
+-   DM Thielfin
+-   DM O'dair
+-   DM Poppy
+-   DM Lego
+-   DM <>
+- Prominent Players:
+-   Dr. V
+-   Voolfie
+-   Tank
+-   Brak
+-   L0BSTER
+- Stefano Dobbin -- for curating the mod, keeping it online, and working on moving it forward
+
 Henk's last update to the mod, labeled version 1.3, is enshrined on the Neverwinter Vault here: https://neverwintervault.org/project/nwn1/module/gameworld/world-sanctuary-diablo-ii-lord-destruction
 
 # *The Project*
