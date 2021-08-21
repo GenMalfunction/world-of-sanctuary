@@ -21,6 +21,10 @@
     "value": [
       {
         "__struct_id": 0,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -50,6 +54,10 @@
                 "type": "resref",
                 "value": ""
               },
+              "ConditionParams": {
+                "type": "list",
+                "value": []
+              },
               "Index": {
                 "type": "dword",
                 "value": 1
@@ -64,6 +72,10 @@
               "Active": {
                 "type": "resref",
                 "value": ""
+              },
+              "ConditionParams": {
+                "type": "list",
+                "value": []
               },
               "Index": {
                 "type": "dword",
@@ -97,6 +109,10 @@
       },
       {
         "__struct_id": 1,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -142,6 +158,10 @@
       },
       {
         "__struct_id": 2,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -181,7 +201,7 @@
         "Text": {
           "type": "cexolocstring",
           "value": {
-            "0": "I already sold you a chicken. No More Chickens for You!"
+            "0": "I already sold you a chicken. No More Chickens for You !"
           }
         }
       }
@@ -189,13 +209,21 @@
   },
   "NumWords": {
     "type": "dword",
-    "value": 37
+    "value": 38
+  },
+  "PreventZoomIn": {
+    "type": "byte",
+    "value": 0
   },
   "ReplyList": {
     "type": "list",
     "value": [
       {
         "__struct_id": 0,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -237,6 +265,10 @@
       },
       {
         "__struct_id": 1,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -261,6 +293,10 @@
               "Active": {
                 "type": "resref",
                 "value": ""
+              },
+              "ConditionParams": {
+                "type": "list",
+                "value": []
               },
               "Index": {
                 "type": "dword",
@@ -303,6 +339,10 @@
           "type": "resref",
           "value": "chick_not_rehire"
         },
+        "ConditionParams": {
+          "type": "list",
+          "value": []
+        },
         "Index": {
           "type": "dword",
           "value": 2
@@ -313,6 +353,10 @@
         "Active": {
           "type": "resref",
           "value": ""
+        },
+        "ConditionParams": {
+          "type": "list",
+          "value": []
         },
         "Index": {
           "type": "dword",

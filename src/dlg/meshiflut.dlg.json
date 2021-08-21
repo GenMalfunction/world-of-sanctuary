@@ -21,6 +21,10 @@
     "value": [
       {
         "__struct_id": 0,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -54,6 +58,10 @@
                 "type": "resref",
                 "value": ""
               },
+              "ConditionParams": {
+                "type": "list",
+                "value": []
+              },
               "Index": {
                 "type": "dword",
                 "value": 0
@@ -80,12 +88,16 @@
         "Text": {
           "type": "cexolocstring",
           "value": {
-            "0": "Thank you for killing Duriel, you may travel with me to Kurast and Act Three."
+            "0": "Thank you for killing Duriel ! Now that the harbor is open again, you may travel with me to Kurast and Act Three."
           }
         }
       },
       {
         "__struct_id": 1,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -115,6 +127,10 @@
                 "type": "resref",
                 "value": ""
               },
+              "ConditionParams": {
+                "type": "list",
+                "value": []
+              },
               "Index": {
                 "type": "dword",
                 "value": 1
@@ -141,12 +157,16 @@
         "Text": {
           "type": "cexolocstring",
           "value": {
-            "0": "You want to tavel to Kurast ?"
+            "0": "You want to travel to Kurast ?"
           }
         }
       },
       {
         "__struct_id": 2,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -186,7 +206,7 @@
         "Text": {
           "type": "cexolocstring",
           "value": {
-            "0": "Terrible thinks happened here, it seems that some sort of evil is on the lose in the world again, last what we heard is that there are some things going on in the palace ask the guards for more information."
+            "0": "Terrible things happened here! It seems that some sort of evil is on the loose in the world again. Last we heard is there are strange things going on in the Palace. Ask the guards for more information."
           }
         }
       }
@@ -194,7 +214,7 @@
   },
   "NumWords": {
     "type": "dword",
-    "value": 70
+    "value": 76
   },
   "PreventZoomIn": {
     "type": "byte",
@@ -205,6 +225,10 @@
     "value": [
       {
         "__struct_id": 0,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -240,12 +264,16 @@
         "Text": {
           "type": "cexolocstring",
           "value": {
-            "0": "Okay thank you Meshif  !"
+            "0": "Okay! Thank you, Meshif  !"
           }
         }
       },
       {
         "__struct_id": 1,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -296,6 +324,10 @@
           "type": "resref",
           "value": "havehorazonsoul"
         },
+        "ConditionParams": {
+          "type": "list",
+          "value": []
+        },
         "Index": {
           "type": "dword",
           "value": 2
@@ -307,6 +339,10 @@
           "type": "resref",
           "value": "havewayp18"
         },
+        "ConditionParams": {
+          "type": "list",
+          "value": []
+        },
         "Index": {
           "type": "dword",
           "value": 1
@@ -317,6 +353,10 @@
         "Active": {
           "type": "resref",
           "value": "havekeyduriel"
+        },
+        "ConditionParams": {
+          "type": "list",
+          "value": []
         },
         "Index": {
           "type": "dword",

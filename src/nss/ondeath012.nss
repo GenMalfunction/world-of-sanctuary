@@ -164,7 +164,7 @@ DelayCommand(3.0,AssignCommand(oKai, ActionCastFakeSpellAtObject(SPELL_SLAY_LIVI
 DelayCommand(4.4,ApplyEffectToObject(DURATION_TYPE_INSTANT,eEffect1,PC));
 DelayCommand(4.5,ApplyEffectToObject(DURATION_TYPE_INSTANT,eEffect2,PC));
 DelayCommand(4.6,ApplyEffectToObject(DURATION_TYPE_INSTANT,eEffect3,PC));
-DelayCommand(6.0,FloatingTextStringOnCreature(" <cÜ>Diablo show's no mercy on you "+sName+", Respawn to fight again...",PC));
+DelayCommand(6.0,FloatingTextStringOnCreature(" <cÜ>Diablo shows no mercy on you "+sName+", Respawn to fight again...",PC));
 DelayCommand(6.3,ApplyEffectToObject(DURATION_TYPE_PERMANENT,eFly,oKai));
 
 object oTarget;

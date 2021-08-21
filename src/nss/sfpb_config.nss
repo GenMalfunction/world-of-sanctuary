@@ -36,7 +36,7 @@ const int CHARACTER_SHARING = TRUE;
 // per player. I strongly recommend setting this no higher
 // than 100. I cannot garuntee the system will function without
 // any ill effects if you exceed this.
-const int MAX_ITEMS = 100;
+const int MAX_ITEMS = 80;
 
 // For testing purposes, if testing this system in single player
 // mode, make sure this is set TRUE. Please bare in mind that

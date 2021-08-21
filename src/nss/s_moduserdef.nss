@@ -3,7 +3,8 @@ void main()
 switch (GetUserDefinedEventNumber()) {
 case 200:
     ExportAllCharacters();
-    SpeakString("www.worldofsanctuary.nl", TALKVOLUME_SHOUT);
+/*    SpeakString("www.worldofsanctuary.nl", TALKVOLUME_SHOUT); */
+    SpeakString("World of Sanctuary, Enhanced Edition", TALKVOLUME_SHOUT);
     DelayCommand(400.0, SignalEvent(OBJECT_SELF, EventUserDefined(200)));
     break;
 case 220:
@@ -51,7 +52,7 @@ case 230:
     DelayCommand(297.0f,SpeakString("MODULE RELOADING IN 3", TALKVOLUME_SHOUT));
     DelayCommand(298.0f,SpeakString("MODULE RELOADING IN 2", TALKVOLUME_SHOUT));
     DelayCommand(299.0f,SpeakString("MODULE RELOADING IN 1", TALKVOLUME_SHOUT));
-    DelayCommand(300.0f,StartNewModule("Diablo Lord of Destruction"));
+    DelayCommand(300.0f,StartNewModule("DiabloLordofDestruction"));
     break;
 }  /* switch  */
 }

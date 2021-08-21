@@ -4,7 +4,7 @@
 
 void main()
 {
-int STARTING_GOLD = 100000;
+int STARTING_GOLD = 10000;
 object oPlayer = GetEnteringObject();
 UID_Check (oPlayer);
 PGS_OnClientEnter (oPlayer);
@@ -37,17 +37,16 @@ AddJournalQuestEntry("Waypoints Act X", 1, oPCC, FALSE, FALSE);
 AddJournalQuestEntry("Waypoints Act XI", 1, oPCC, FALSE, FALSE);
 AddJournalQuestEntry("Rune", 1, oPCC, FALSE, FALSE);
 AddJournalQuestEntry("Hall of Monuments", 1, oPCC, FALSE, FALSE);
-AddJournalQuestEntry("Diablo Server Updates", 1, oPCC, FALSE, FALSE);
 }
 if (GetHitDice(oPlayer) <= 1)
    {
    RewardPartyXP(1000, oPlayer, FALSE);
+// Giving PC its starting gold.
+   GiveGoldToCreature(oPlayer, STARTING_GOLD);
    }
 
     if(GetIsPC(oPlayer) && !(GetXP(oPlayer)) && !(GetIsDM(oPlayer)))
     {
-// Giving PC its starting gold.
-        GiveGoldToCreature(oPlayer, STARTING_GOLD - GetGold(oPlayer));
 // Set the Good Evil Factions
         object oPC = GetEnteringObject();
         if(GetAlignmentGoodEvil(oPC) == ALIGNMENT_GOOD)
