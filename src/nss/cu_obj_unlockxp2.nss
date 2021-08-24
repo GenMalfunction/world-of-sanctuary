@@ -1,5 +1,5 @@
 
-#include "CU_FUNCTIONS"
+#include "cu_functions"
 void main()
 {
     int nOnce = GetLocalInt(GetLastUnlocked(),"un"+GetTag(OBJECT_SELF));

@@ -1,4 +1,4 @@
-#include "CU_FUNCTIONS"
+#include "cu_functions"
 
 void main()
 {

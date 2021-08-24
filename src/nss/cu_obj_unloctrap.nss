@@ -1,5 +1,5 @@
 //Script for rewarding xp to the PC opening the lock. This script disarms the trap on unlocking.
-#include "CU_FUNCTIONS"
+#include "cu_functions"
 void main()
 {
     SetTrapDisabled(OBJECT_SELF);

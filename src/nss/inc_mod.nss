@@ -132,7 +132,7 @@ void ApplyFlagEffect( object oPlayer )
 //////////////////////////////////////////////////
 // Created by BauB
 //////////////////////////////////////////////////
-void ResetFlagState( int nState )
+int ResetFlagState( int nState )
 {
   object oFlag;
   if (nState == 1) {
