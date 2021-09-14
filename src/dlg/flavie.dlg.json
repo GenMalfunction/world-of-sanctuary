@@ -21,6 +21,10 @@
     "value": [
       {
         "__struct_id": 0,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -60,12 +64,16 @@
         "Text": {
           "type": "cexolocstring",
           "value": {
-            "0": "You must compleet the first quest to enter here !"
+            "0": "You must complete the first quest before you can enter here !"
           }
         }
       },
       {
         "__struct_id": 1,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -105,7 +113,7 @@
         "Text": {
           "type": "cexolocstring",
           "value": {
-            "0": "Beware! Beyond lies mortal danger for the likes of you"
+            "0": "Beware! Beyond lies mortal danger for the likes of you !"
           }
         }
       }
@@ -113,7 +121,7 @@
   },
   "NumWords": {
     "type": "dword",
-    "value": 20
+    "value": 23
   },
   "PreventZoomIn": {
     "type": "byte",
@@ -132,6 +140,10 @@
           "type": "resref",
           "value": "havekeycoldplain"
         },
+        "ConditionParams": {
+          "type": "list",
+          "value": []
+        },
         "Index": {
           "type": "dword",
           "value": 1
@@ -142,6 +154,10 @@
         "Active": {
           "type": "resref",
           "value": ""
+        },
+        "ConditionParams": {
+          "type": "list",
+          "value": []
         },
         "Index": {
           "type": "dword",

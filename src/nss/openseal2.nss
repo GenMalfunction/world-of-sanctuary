@@ -1,3 +1,5 @@
+#include "nw_i0_tool"
+
 void main()
 {
 
@@ -18,7 +20,11 @@ oTarget = oSpawn;
 
 if (!GetIsPC(oPC)) return;
 
+if (!HasItem(oPC, "seal02")) {
 CreateItemOnObject("seal02", oPC);
+SpeakString("Someone found Chaos Sanctuary Seal02!", TALKVOLUME_SHOUT);
+}
+else return;
 
 //Visual effects can't be applied to waypoints, so if it is a WP
 //apply to the WP's location instead

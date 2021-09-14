@@ -21,6 +21,10 @@
     "value": [
       {
         "__struct_id": 0,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -60,12 +64,16 @@
         "Text": {
           "type": "cexolocstring",
           "value": {
-            "0": "You must defeat Blood Raven before you may pass this Bridge, go back to the Rogue Encampment and talk to Kashya the Rogue Leader."
+            "0": "You must defeat Blood Raven before you may pass this Bridge. Go back to the Rogue Encampment and talk to Kashya the Rogue Leader."
           }
         }
       },
       {
         "__struct_id": 1,
+        "ActionParams": {
+          "type": "list",
+          "value": []
+        },
         "Animation": {
           "type": "dword",
           "value": 0
@@ -105,7 +113,7 @@
         "Text": {
           "type": "cexolocstring",
           "value": {
-            "0": "Your are a true hero !, you have defeated Blood Raven, you may pass this bridge to the Dark Wood !"
+            "0": "Your are a true hero ! You have defeated Blood Raven, so you may pass this bridge to the Dark Wood !"
           }
         }
       }
@@ -113,7 +121,7 @@
   },
   "NumWords": {
     "type": "dword",
-    "value": 45
+    "value": 46
   },
   "PreventZoomIn": {
     "type": "byte",
@@ -132,6 +140,10 @@
           "type": "resref",
           "value": "havekeydarkwood"
         },
+        "ConditionParams": {
+          "type": "list",
+          "value": []
+        },
         "Index": {
           "type": "dword",
           "value": 1
@@ -142,6 +154,10 @@
         "Active": {
           "type": "resref",
           "value": ""
+        },
+        "ConditionParams": {
+          "type": "list",
+          "value": []
         },
         "Index": {
           "type": "dword",

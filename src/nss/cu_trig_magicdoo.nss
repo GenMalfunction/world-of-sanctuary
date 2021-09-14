@@ -1,7 +1,7 @@
 // B W-Husey 17th January 2003
 // Script to unlock and open a magic door at specific times with suitable effects!
 
-#include "CU_FUNCTIONS"
+#include "cu_functions"
 
 void main()
 {

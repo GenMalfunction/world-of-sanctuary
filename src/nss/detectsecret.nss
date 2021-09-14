@@ -1,5 +1,5 @@
 //Modified to give xp
-#include "CU_FUNCTIONS"
+#include "cu_functions"
 void main()
 {
     // get the radius and DC of the secret door.

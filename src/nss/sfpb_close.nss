@@ -88,6 +88,10 @@ void main()
         // Next item
         oItem = GetNextItemInInventory(oChest);
     }
+    // testing flyover text announcing number of items stored, and capacity
+    string sCheck = IntToString(nCount);
+    FloatingTextStringOnCreature("*" + sCheck +"/80"+ " items stored successfully!*", oPC);
+    // end_test
 
     // Save the NPC storer into the database
     StoreCampaignObject(sModName, DATABASE_ITEM + sUserID, oStorer);

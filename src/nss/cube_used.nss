@@ -19,7 +19,7 @@ object oItem = GetFirstItemInInventory();// Get item to start loop with
 string sItem1, sItem2, sItem3, sItem;
 if (!GetIsObjectValid(oItem))
 return;
-//SpeakString("debug, Start counter.",TALKVOLUME_TALK);
+SpeakString("debug, Start counter.",TALKVOLUME_TALK);
 while(GetIsObjectValid(oItem))// main loop
 {
 count++;
