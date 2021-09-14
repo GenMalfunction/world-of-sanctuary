@@ -8,7 +8,7 @@ void ApplyFlagEffect( object oPlayer );
 //////////////////////////////////////////////////
 // Resets the Flag for Team 1(cult) or 2 (avenge)
 //////////////////////////////////////////////////
-int ResetFlagState( int nState );
+void ResetFlagState( int nState );
 
 //////////////////////////////////////////////////
 // Broadcasts a message to the server
@@ -132,7 +132,7 @@ void ApplyFlagEffect( object oPlayer )
 //////////////////////////////////////////////////
 // Created by BauB
 //////////////////////////////////////////////////
-int ResetFlagState( int nState )
+void ResetFlagState( int nState )
 {
   object oFlag;
   if (nState == 1) {
